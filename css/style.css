@@ -1,0 +1,72 @@
+﻿@font-face {
+  font-family: "Miso";
+  src: url("../fonts/miso-regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Miso Bold";
+  src: url("../fonts/miso-bold.ttf"); format("ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Miso",Arial,sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: #fdde7e;
+}
+.flex-container {
+  display: flex;
+  width: 1142px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 502px;
+}
+.flex-item {
+  flex-basis: 362px;
+  padding: 30px 0;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+}
+.flex-item:nth-child(2) {
+  align-self: stretch;
+  padding: 40px 0;
+}
+.flex-item:nth-child(2) h1 {
+  align-self: stretch;
+  padding-bottom: 35px;
+}
+.flex-item h1 {
+  padding-bottom: 24px;
+  font-family: "Miso Bold", Arial, sans-serif;
+  font-size: 70px;
+  color: #02995b
+}
+.flex-item .item-color {
+  padding: 35px 0;
+  font-family: "Miso", Arial, sans-serif;
+  font-size: 36px;
+}
+.flex-item p {
+  width: 154px;
+  margin: 0 auto;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
